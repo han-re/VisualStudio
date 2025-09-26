@@ -46,17 +46,18 @@ double Sqrt(double x) {
 void sortPrint(int i, int j, int k) {
 	
 
+
 	if (i < j) {
 		int temp = i;
 		i = j;
 		j = temp;
 	}
-	else if (i < k) {
+	if (i < k) {
 		int temp = i;
 		i = k;
 		k = temp;
 	}
-	else if (j < k) {
+	if (j < k) {
 		int temp = j;
 		j = k;
 		k = temp;
@@ -65,7 +66,33 @@ void sortPrint(int i, int j, int k) {
 	int numbers[3] = {i,j,k};
 
 
-	for (int index = 0; index < 3; index++) {
-		cout << numbers[index] << "\n";
+	cout << "Sorted numbers: " << numbers[0] << ", " << numbers[1] << ", " << numbers[2];
+	
+	
+
+}
+
+void bubbleSort(int m, int n, int o) {
+
+
+	int num[3] = {m, n, o};
+
+	for (int index = 0; index < 2; index++) {
+		for (int index = 0; index < 2; index++) {
+			if (num[index] < num[index + 1]) {
+				int temp = num[index];
+				num[index] = num[index + 1];
+				num[index + 1] = temp;
+			}
+		}
 	}
+
+	for (int index = 0; index <= 2; index++) {
+		cout << num[index] << " ";
+	}
+}
+
+double myCalculator(double a, char op, double b) {
+
+
 }

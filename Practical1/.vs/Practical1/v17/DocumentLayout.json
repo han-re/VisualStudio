@@ -1,87 +1,12 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\rehan\\source\\repos\\Practical1\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{BE003C7C-7301-49F6-9BBC-6EAD82A58B6D}|Functions\\Functions.vcxproj|C:\\Users\\rehan\\source\\repos\\Practical1\\Functions\\myFunctions.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{BE003C7C-7301-49F6-9BBC-6EAD82A58B6D}|Functions\\Functions.vcxproj|solutionrelative:Functions\\myFunctions.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BE003C7C-7301-49F6-9BBC-6EAD82A58B6D}|Functions\\Functions.vcxproj|C:\\Users\\rehan\\source\\repos\\Practical1\\Functions\\test.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{BE003C7C-7301-49F6-9BBC-6EAD82A58B6D}|Functions\\Functions.vcxproj|solutionrelative:Functions\\test.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BE003C7C-7301-49F6-9BBC-6EAD82A58B6D}|Functions\\Functions.vcxproj|C:\\Users\\rehan\\source\\repos\\Practical1\\Functions\\myFunctions.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{BE003C7C-7301-49F6-9BBC-6EAD82A58B6D}|Functions\\Functions.vcxproj|solutionrelative:Functions\\myFunctions.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\crt\\src\\vcruntime\\debugger_jmc.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    }
-  ],
+  "WorkspaceRootPath": "C:\\Users\\40415484\\source\\repos\\VisualStudio\\Practical1\\",
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 2,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "debugger_jmc.c",
-              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\crt\\src\\vcruntime\\debugger_jmc.c",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\crt\\src\\vcruntime\\debugger_jmc.c",
-              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\crt\\src\\vcruntime\\debugger_jmc.c",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\crt\\src\\vcruntime\\debugger_jmc.c",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAqwBUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2025-09-24T14:21:33.937Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "test.cpp",
-              "DocumentMoniker": "C:\\Users\\rehan\\source\\repos\\Practical1\\Functions\\test.cpp",
-              "RelativeDocumentMoniker": "Functions\\test.cpp",
-              "ToolTip": "C:\\Users\\rehan\\source\\repos\\Practical1\\Functions\\test.cpp",
-              "RelativeToolTip": "Functions\\test.cpp",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA0AAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-09-24T00:01:18.882Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "myFunctions.cpp",
-              "DocumentMoniker": "C:\\Users\\rehan\\source\\repos\\Practical1\\Functions\\myFunctions.cpp",
-              "RelativeDocumentMoniker": "Functions\\myFunctions.cpp",
-              "ToolTip": "C:\\Users\\rehan\\source\\repos\\Practical1\\Functions\\myFunctions.cpp",
-              "RelativeToolTip": "Functions\\myFunctions.cpp",
-              "ViewState": "AgIAACwAAAAAAAAAAAAAADUAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-09-23T23:49:12.961Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "myFunctions.h",
-              "DocumentMoniker": "C:\\Users\\rehan\\source\\repos\\Practical1\\Functions\\myFunctions.h",
-              "RelativeDocumentMoniker": "Functions\\myFunctions.h",
-              "ToolTip": "C:\\Users\\rehan\\source\\repos\\Practical1\\Functions\\myFunctions.h",
-              "RelativeToolTip": "Functions\\myFunctions.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-09-23T23:48:39.178Z",
-              "EditorCaption": ""
-            }
-          ]
-        }
-      ]
+      "DocumentGroups": []
     }
   ]
 }
