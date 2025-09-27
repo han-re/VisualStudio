@@ -1,0 +1,37 @@
+# Visual Studio specific
+.vs/
+*.vcxproj.user
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build directories
+Debug/
+Release/
+x64/
+x86/
+build/
+
+# Compiled object files
+*.obj
+*.o
+*.so
+*.exe
+*.dll
+*.lib
+*.a
+*.out
+
+# CMake (if using CMake)
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Logs
+*.log
+
+# OS-specific
+.DS_Store
+Thumbs.db
