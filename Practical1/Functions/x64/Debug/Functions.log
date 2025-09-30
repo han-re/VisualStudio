@@ -1,1 +1,5 @@
-﻿  test.cpp
+﻿  test2.cpp
+C:\Users\rehan\source\repos\Practical1\Functions\test2.cpp(33,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\rehan\source\repos\Practical1\Functions\test2.cpp(55,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\rehan\source\repos\Practical1\Functions\test2.cpp(81,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Functions.vcxproj -> C:\Users\rehan\source\repos\Practical1\x64\Debug\Functions.exe

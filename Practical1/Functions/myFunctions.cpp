@@ -95,4 +95,21 @@ void bubbleSort(int m, int n, int o) {
 double myCalculator(double a, char op, double b) {
 
 
+	switch (op) {
+		case '+': return a + b;
+		case '-': return a - b; 
+		case '*': return a * b; 
+		case '/': 
+			if (b != 0) {
+				return a / b;
+			}
+			else {
+				cout << "Error division with zero does not work." << "\n";
+				return 0;
+			}
+		default: 
+			cout << "Error, Expression does not contain proper operator" << "\n";
+			return 0;
+	}
+
 }
