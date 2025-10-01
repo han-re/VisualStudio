@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+
+double* pCubeX(double x) {
+	double cube = x * x * x;
+	return &cube;
+}
+
+int main() {
+	pCubeX(3.0);
+	double *px = pCubeX(3.0);
+	cout << &px << "\n";
+
+	return 0;
+}

@@ -1,0 +1,3 @@
+﻿  test2.cpp
+C:\Users\rehan\source\repos\Practical2\Pointer2\test2.cpp(6,1): warning C4172: returning address of local variable or temporary : cube
+  Pointer2.vcxproj -> C:\Users\rehan\source\repos\Practical2\x64\Debug\Pointer2.exe
