@@ -7,9 +7,8 @@ double* pCubeX(double x) {
 }
 
 int main() {
-	pCubeX(3.0);
-	double *px = pCubeX(3.0);
-	cout << &px << "\n";
+	double* px = pCubeX(3.0);
+	cout << *px << "\n";
 
 	return 0;
 }
