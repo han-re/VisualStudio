@@ -2,13 +2,12 @@
 using namespace std;
 
 double* pCubeX(double x) {
-	double cube = x * x * x;
-	return &cube;
+	return new double(x * x * x);
 }
 
 int main() {
 	double* px = pCubeX(3.0);
+	cout << *px << "\n";	
 	cout << *px << "\n";
-
 	return 0;
 }
