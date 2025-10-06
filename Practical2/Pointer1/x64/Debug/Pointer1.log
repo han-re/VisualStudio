@@ -1,1 +1,3 @@
-﻿  Pointer1.vcxproj -> C:\Users\40415484\source\repos\VisualStudio\Practical2\x64\Debug\Pointer1.exe
+﻿  test1.cpp
+  LINK : I:\VisualStudio\Practical2\x64\Debug\Pointer1.exe not found or not built by the last incremental link; performing full link
+  Pointer1.vcxproj -> I:\VisualStudio\Practical2\x64\Debug\Pointer1.exe
