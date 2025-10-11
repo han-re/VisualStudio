@@ -1,0 +1,3 @@
+﻿myLib.obj : error LNK2019: unresolved external symbol "void __cdecl mul_div2(double *,double *)" (?mul_div2@@YAXPEAN0@Z) referenced in function main
+myLib.obj : error LNK2019: unresolved external symbol "int __cdecl search_arr_indexing(char *,int,char)" (?search_arr_indexing@@YAHPEADHD@Z) referenced in function main
+C:\Users\rehan\source\repos\Practical2\x64\Debug\Library.exe : fatal error LNK1120: 2 unresolved externals
