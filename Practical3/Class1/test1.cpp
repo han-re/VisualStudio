@@ -23,5 +23,15 @@ int main() {
 	test3->set_family_name("Tan");
 	test3->set_ID_number("NYPD-888");
 	test3->set_birth_year(2005);
+
+
+	if (test2->get_birth_year() == test3->get_birth_year()){
+		cout << "Objects are equal";
+	}
+
+	delete test2;
+	test2 = nullptr;
+	delete test3;
+	test3 = nullptr;
 	return 0;
 }
