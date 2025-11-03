@@ -31,10 +31,14 @@ class xClass {
 
 		void print_data() const{
 			
-			cout << "Array: ";
+			cout << "Array: [";
 			for (int i = 0; i < size; i++) {
 				cout << data[i];
+				if (data[i] < size - 1) {
+					cout << ", ";
+				}
 			}
+			cout << "]\n";
 		}
 
 		int ave_data() const {
@@ -45,11 +49,11 @@ class xClass {
 			}
 
 			if(count > 0){
-				return -1;
+				return count/size;
 			}
 
 			else {
-				return NULL;
+				return 0;
 			}
 		}
 
@@ -95,7 +99,7 @@ class xClass {
 			size = newSize;
 
 		}
-};
+	};
 
 
 
