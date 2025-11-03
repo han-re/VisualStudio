@@ -15,15 +15,18 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="xClass.h">
+    <ClInclude Include="iStackNode.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="xClass1.h">
+    <ClInclude Include="iStack.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="xClass.cpp">
+    <ClCompile Include="iStack.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="iStackNode.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

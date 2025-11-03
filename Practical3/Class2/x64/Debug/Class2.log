@@ -1,6 +1,6 @@
 ﻿  xClass.cpp
-C:\Users\rehan\source\repos\Practical3\Class2\xClass.h(62,10): warning C4804: '<': unsafe use of type 'bool' in operation
+C:\Users\40415484\source\repos\VisualStudio\Practical3\Class2\xClass.h(64,10): warning C4804: '<': unsafe use of type 'bool' in operation
   (compiling source file 'xClass.cpp')
   
-C:\Users\rehan\source\repos\Practical3\Class2\xClass.cpp(8,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
-  Class2.vcxproj -> C:\Users\rehan\source\repos\Practical3\x64\Debug\Class2.exe
+C:\Users\40415484\source\repos\VisualStudio\Practical3\Class2\xClass.cpp(8,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Class2.vcxproj -> C:\Users\40415484\Source\Repos\VisualStudio\Practical3\x64\Debug\Class2.exe

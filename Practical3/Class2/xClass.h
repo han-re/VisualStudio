@@ -22,7 +22,8 @@ class xClass {
 
 			for (int i = 0; i < size; i++) {
 				data[i] = std::rand() % (max_val);
-			}
+			}	
+
 		}
 
 		~xClass() {
@@ -34,7 +35,7 @@ class xClass {
 			cout << "Array: [";
 			for (int i = 0; i < size; i++) {
 				cout << data[i];
-				if (data[i] < size - 1) {
+				if (i < size - 1) { // changed from (data[i] < size -1) as I realised that that was comparing the actual value and size -1 instead of the index value.
 					cout << ", ";
 				}
 			}
