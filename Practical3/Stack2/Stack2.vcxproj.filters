@@ -15,21 +15,21 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="iStackNode.h">
+    <ClInclude Include="..\Stack1\iStackNode.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="iStack.h">
+    <ClInclude Include="..\Stack1\iStack.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="iStack.cpp">
+    <ClCompile Include="..\Stack1\iStack.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="iStackNode.cpp">
+    <ClCompile Include="..\Stack1\iStackNode.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="test.cpp">
+    <ClCompile Include="test4.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

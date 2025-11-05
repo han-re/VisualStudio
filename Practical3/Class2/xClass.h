@@ -3,7 +3,7 @@
 
 #include <iostream>
 #include <cstdlib>
-#include <ctime>
+#include <ctime> 
 
 using std::cout;
 
@@ -22,8 +22,7 @@ class xClass {
 
 			for (int i = 0; i < size; i++) {
 				data[i] = std::rand() % (max_val);
-			}	
-
+			}
 		}
 
 		~xClass() {
@@ -35,7 +34,7 @@ class xClass {
 			cout << "Array: [";
 			for (int i = 0; i < size; i++) {
 				cout << data[i];
-				if (i < size - 1) { // changed from (data[i] < size -1) as I realised that that was comparing the actual value and size -1 instead of the index value.
+				if (data[i] < size - 1) {
 					cout << ", ";
 				}
 			}

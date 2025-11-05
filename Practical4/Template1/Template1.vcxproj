@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{cb05d24e-56fc-4cdd-a049-fd0d021228c8}</ProjectGuid>
-    <RootNamespace>Stack1</RootNamespace>
+    <ProjectGuid>{f1b3a31e-1a04-4a20-a5bf-726bae96270a}</ProjectGuid>
+    <RootNamespace>Template1</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -123,13 +123,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="iStack.h" />
-    <ClInclude Include="iStackNode.h" />
+    <ClCompile Include="Person.cpp" />
+    <ClCompile Include="test1.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="iStack.cpp" />
-    <ClCompile Include="iStackNode.cpp" />
-    <ClCompile Include="test.cpp" />
+    <ClInclude Include="Person.h" />
+    <ClInclude Include="Stack.h" />
+    <ClInclude Include="StackNode.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
