@@ -204,13 +204,13 @@ template <typename T>
 bool List<T>::remove(int p1, int p2) {
 
 	if (p1 < 0 || p2 >= listSize || p1 > p2) {
-		return False;
+		return false;
 	}
 
-	int range = p2 - p1;
-	for (int i = 0; i < range; i++) {
-
+	for (int p = p1; p <= p2; p++) {
+		remove(p1);
 	}
+	return true;
 }
 
 
