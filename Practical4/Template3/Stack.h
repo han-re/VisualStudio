@@ -5,8 +5,6 @@
 #include <iostream>
 using namespace std;
 
-// Some functions start with T and some don't. This is because those that start with T have a return type of T (return type of char, string, int. Basically whatever the template was created for) and those that don't start with T return a type that is not significant to the template type. 
-
 template<typename T>
 class Stack
 {
@@ -21,7 +19,6 @@ public:
 
 	T operator+(T i);	// overload + for push
 	T operator-();      // overload - for pop
-	bool operator==(const Stack<T>& stk);
 
 private:
 	StackNode<T>* pTos;
@@ -101,33 +98,6 @@ template<typename T>
 T Stack<T>::operator-()
 {
 	return pop();
-}
-
-//Checking to see if stk1 == stk2. So how do we accomplish this? For 2 stacks to be identical both stacks need to have the !same size and the same sequence of data! Do we need any basecases or whatever they're called when you make sure stk isn't NULL or 0? No because we just need to compare the 2 stacks. So if one is NULL just return false. 
-
-template<typename T>
-bool Stack<T>::operator==(const Stack<T>& stk) {
-	
-	// checking if both sizes are the same if not return false.
-	if (size() == stk.size()) {
-
-		//checking to see if the data in both stacks are the same and same order by using a pointer to top of both stacks (pTos) & comparing them then moving to next node 
-
-		StackNode<T>* ptr1 = pTos;
-		StackNode<T>* ptr2 = stk.pTos;
-		
-		for(int i = 0; i < stackSize; i++){
-			if (ptr1->item != ptr2->item) {
-				return false;
-			}
-
-			ptr1 = ptr1->pNextNode;
-			ptr2 = ptr2->pNextNode;
-		}
-
-	}
-
-	return true;
 }
 
 
