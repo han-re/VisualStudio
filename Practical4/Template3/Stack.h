@@ -19,6 +19,10 @@ public:
 
 	T operator+(T i);	// overload + for push
 	T operator-();      // overload - for pop
+	bool operator==(const Stack<T>& stk);
+
+	void print();
+	//int search(int key);
 
 private:
 	StackNode<T>* pTos;
@@ -99,5 +103,46 @@ T Stack<T>::operator-()
 {
 	return pop();
 }
+
+template<typename T>
+bool Stack<T>:: operator==(const Stack<T>& stk) {
+
+	if (stackSize != stk.stackSize) {
+		return false;
+	}
+
+	StackNode<T>* ptr1 = pTos;
+	StackNode<T>* ptr2 = stk.pTos;
+
+	for (int i = 0; i < stackSize; i++) {
+		if (ptr1->item != ptr2->item) {
+			return false;
+		}
+
+		ptr1 = ptr1->pNextNode;
+		ptr2 = ptr2->pNextNode;
+	}
+
+	return true;
+}
+
+template<typename T>
+void Stack<T>::print() {
+
+	if (stackSize <= 0) {
+		cout << "No Values Stored";
+	}
+
+	StackNode<T>* ptr = pTos;
+
+	for (int i = 0; i < stackSize; i++) {
+		cout << ptr->item << " ";
+		ptr = ptr->pNextNode;
+	}
+
+	cout << endl;
+
+}
+
 
 
